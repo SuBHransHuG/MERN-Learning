@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Model</title>
+    <style>
+        *{
+            padding: 0; 
+            margin: 0;
+            box-sizing: border-box;
+        }
+        h1 {
+            background-color: black;
+            color: white;
+            border: solid red 5px;
+            border-top-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            width: 190px;
+            padding: 15px;
+            margin-left: 650px;
+        }
+
+        .p1 {
+            background-color: bisque;
+            border-left: 5px solid green;
+            padding-left: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+        .p2 {
+            background-color: bisque;
+            border-left: 5px solid rgb(38, 0, 128);
+            padding-left: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+        .p3 {
+            background-color: bisque;
+            border-left: 5px solid rgb(61, 3, 3);
+            padding-left: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .styled-span {
+    /* display: inline-block; */
+    width: 150px;
+    height: 50px;
+    background-color: lightblue;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+  } 
+    </style>
+</head>
+
+<body>
+    <h1>Box Model</h1>
+    <p class="p1">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste architecto
+        totam, cupiditate quisquam omnis vel impedit, iure magni quia porro
+        aperiam tenetur tempora fugit maxime eum hic dignissimos obcaecati sed
+        commodi ab ea! Iusto aperiam officiis dolore pariatur nisi doloribus.
+    </p>
+    <p class="p2">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus
+        impedit et minus numquam dolorum quidem aperiam exercitationem quisquam
+        consequuntur, magni tempora iusto ad sapiente enim quibusdam dolorem? Ipsa
+        quae molestias dicta distinctio voluptate doloremque libero sit cum,
+        repellendus laborum facilis, aliquam facere, ullam ducimus quia.
+    </p>
+    <p class="p3">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, repellat
+        harum tempora iusto ipsam voluptatum rerum non distinctio provident
+        nesciunt. Iusto perferendis officiis rerum quo numquam mollitia
+        reprehenderit odio sequi nisi laboriosam, accusamus vitae, debitis nemo
+        quam nostrum sapiente, quas laudantium. Eligendi velit sunt quidem? Harum
+        impedit omnis alias dolorem expedita incidunt, debitis laborum voluptas
+        adipisci commodi, nesciunt officia ullam nemo architecto. Minima neque
+        atque sit. Quis?
+    </p>
+    <span class="styled-span">
+        The span tag is an inline element by default in HTML, which means that it
+        only takes up as much width and height as its content requires. Inline
+        elements do not respect the width and height CSS properties because they
+        flow within the normal line of text. <br />To apply width and height to a
+        span, you need to change its display property to something that can
+        accommodate these dimensions, such as inline-block or block.
+    </span>
+</body>
+
+</html>
